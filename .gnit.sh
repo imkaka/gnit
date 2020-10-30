@@ -7,7 +7,7 @@ function gnit() {
     git remote add origin git@github.com:<your-github-username>/$1.git
     touch README.md
     git add .
-    git commit -m "Initial commit"
-    git push -u origin master
+    git commit -m ":tada: Initial commit"
+    git push -u origin main
     code .
 }
